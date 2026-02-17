@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowRight, CheckCircle, Zap, Database, Code, TrendingUp, Clock } from 'lucide-react';
+import { ArrowRight, Zap, Database, Code, TrendingUp, Clock } from 'lucide-react';
 import { homeContent, ctaContent } from '../mock';
 
 const Home = () => {

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Github, Linkedin, Twitter } from 'lucide-react';
-import { companyName, navigation } from '../mock';
+import { companyName } from '../mock';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -23,13 +23,13 @@ const Footer = () => {
               Built by engineers who ship code, not consultants who write decks.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-slate-400 hover:text-cyan-400 transition-colors duration-200">
+              <a href="https://github.com" className="text-slate-400 hover:text-cyan-400 transition-colors duration-200" target="_blank" rel="noopener noreferrer">
                 <Github className="w-5 h-5" />
               </a>
-              <a href="#" className="text-slate-400 hover:text-cyan-400 transition-colors duration-200">
+              <a href="https://linkedin.com" className="text-slate-400 hover:text-cyan-400 transition-colors duration-200" target="_blank" rel="noopener noreferrer">
                 <Linkedin className="w-5 h-5" />
               </a>
-              <a href="#" className="text-slate-400 hover:text-cyan-400 transition-colors duration-200">
+              <a href="https://twitter.com" className="text-slate-400 hover:text-cyan-400 transition-colors duration-200" target="_blank" rel="noopener noreferrer">
                 <Twitter className="w-5 h-5" />
               </a>
             </div>
@@ -87,10 +87,10 @@ const Footer = () => {
               © {currentYear} {companyName}. All rights reserved.
             </p>
             <div className="flex space-x-6">
-              <a href="#" className="text-slate-500 hover:text-slate-300 text-sm transition-colors duration-200">
+              <a href="/privacy" className="text-slate-500 hover:text-slate-300 text-sm transition-colors duration-200">
                 Privacy Policy
               </a>
-              <a href="#" className="text-slate-500 hover:text-slate-300 text-sm transition-colors duration-200">
+              <a href="/terms" className="text-slate-500 hover:text-slate-300 text-sm transition-colors duration-200">
                 Terms of Service
               </a>
             </div>
