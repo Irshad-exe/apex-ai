@@ -27,7 +27,8 @@
 .App-link {
   color: #61dafb;
 }
-* Transitions for interactive elements */
+
+/* Transitions for interactive elements */
 button {
     transition: background-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
 }
